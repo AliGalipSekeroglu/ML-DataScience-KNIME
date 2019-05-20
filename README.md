@@ -6,4 +6,5 @@ This repository will be updated.
 1-IBM Pandas Example 1, Introduction (Coursera- IBM Data Analysis with Python)                                                        
 2-IBM Pandas Example 2 , Data Cleaning (Coursera- IBM Data Analysis with Python)                                                
 3-KNIME - Market Basket Data Analysis (2 different data sets + report of the experiment)                                                   
-4-KNIME - Monthly Stock Market Prediction of Turkey (Linear + Polynomial Regression)
+4-KNIME - Monthly Stock Market Prediction of Turkey (Linear Regression + Polynomial Regression)                                          
+5-KNIME - Annual Stock Market Prediction of Turkey  (Linear Regression + Polynomial Regression + Gradient Boosted Trees)
