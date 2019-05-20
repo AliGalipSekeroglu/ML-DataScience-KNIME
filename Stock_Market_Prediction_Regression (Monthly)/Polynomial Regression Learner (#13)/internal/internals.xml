@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="internals">
+<config key="betas">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="98965.84579580747"/>
+<entry key="1" type="xdouble" value="-180.83065966588572"/>
+<entry key="2" type="xdouble" value="-22.42951419064485"/>
+<entry key="3" type="xdouble" value="0.898187687454974"/>
+</config>
+<config key="columnNames">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Day of month"/>
+</config>
+<entry key="squaredError" type="xdouble" value="4278394.520808803"/>
+<entry key="adjustedSquaredError" type="xdouble" value="0.3341567911797889"/>
+<config key="meanValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="15.818181818181817"/>
+</config>
+<config key="stdErrors">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="538.550903518626"/>
+<entry key="1" type="xdouble" value="39.464350319766545"/>
+<entry key="2" type="xdouble" value="0.8163798865061966"/>
+<entry key="3" type="xdouble" value="1950.2621512626768"/>
+</config>
+<config key="tValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="-0.33577264188849626"/>
+<entry key="1" type="xdouble" value="-0.5683487504268012"/>
+<entry key="2" type="xdouble" value="1.1002080064697386"/>
+<entry key="3" type="xdouble" value="50.744893824521526"/>
+</config>
+<config key="pValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xdouble" value="0.7409244358500455"/>
+<entry key="1" type="xdouble" value="0.5768205977261442"/>
+<entry key="2" type="xdouble" value="0.28573824521644164"/>
+<entry key="3" type="xdouble" value="0.0"/>
+</config>
+</config>
