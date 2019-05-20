@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="internals">
+<config key="betas">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="80684.49555828355"/>
+<entry key="1" type="xdouble" value="74.65185276064346"/>
+<entry key="2" type="xdouble" value="0.7807912750230346"/>
+<entry key="3" type="xdouble" value="-0.0038701744348846657"/>
+<entry key="4" type="xdouble" value="4.819296144027607E-6"/>
+</config>
+<config key="columnNames">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Day of year"/>
+</config>
+<entry key="squaredError" type="xdouble" value="6729907.026363452"/>
+<entry key="adjustedSquaredError" type="xdouble" value="0.9223538492101058"/>
+<config key="meanValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="182.2213438735177"/>
+</config>
+<config key="stdErrors">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="31.893260263562084"/>
+<entry key="1" type="xdouble" value="0.35507658896557226"/>
+<entry key="2" type="xdouble" value="0.001461575726227054"/>
+<entry key="3" type="xdouble" value="1.987093480518106E-6"/>
+<entry key="4" type="xdouble" value="840.6654529213824"/>
+</config>
+<config key="tValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="2.340678003557162"/>
+<entry key="1" type="xdouble" value="2.1989376356736914"/>
+<entry key="2" type="xdouble" value="-2.6479465726180504"/>
+<entry key="3" type="xdouble" value="2.425299157426174"/>
+<entry key="4" type="xdouble" value="95.97693741059325"/>
+</config>
+<config key="pValues">
+<entry key="array-size" type="xint" value="5"/>
+<entry key="0" type="xdouble" value="0.0200419415113402"/>
+<entry key="1" type="xdouble" value="0.028806115364770513"/>
+<entry key="2" type="xdouble" value="0.008617462418767152"/>
+<entry key="3" type="xdouble" value="0.01601052150911264"/>
+<entry key="4" type="xdouble" value="0.0"/>
+</config>
+</config>
