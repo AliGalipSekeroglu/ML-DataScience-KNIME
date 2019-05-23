@@ -10,4 +10,5 @@ This repository will be updated.
 5-KNIME - Annual Stock Market Prediction of Turkey  (Linear Regression + Polynomial Regression + Gradient Boosted)                    
 6-KNIME - Call Center Analysis (Linear Regression + Polynomial Regression)                                                               
 7-KNIME - K-Fold Cross Validation (Decision Tree + Naive Bayes)                                                                
-8-KNIME - Deep Learning DL4J (DL4J Feedforward for Classification + 3 Dense Layers)                                           
+8-KNIME - Deep Learning DL4J (DL4J Feedforward for Classification + 3 Dense Layers)                                             
+9-KNIME - Ensemble Learning (MAVL) (DL4J Feedforward for Classification + Naive Bayes + SVM)                                          
