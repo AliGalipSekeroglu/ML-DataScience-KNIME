@@ -15,4 +15,5 @@ This repository will be updated.
 10-KNIME - Random Forest (Random Forest + Tree Ensemble + Random Forest Regression)                                                 
 11-KNIME - Clustering (K-Means + Decision Tree)                                                                         
 12-KNIME - Gender Classification (Logistic Regression + Random Forest + DL4J Feedforward for Classification)              
-13-KNIME - Naive Bayes (Binning)                                                                                              
+13-KNIME - Naive Bayes (Binning)                                       
+14-KNIME - Metanodes and Loops (KNN + Naive Bayes + Decision Tree)        
