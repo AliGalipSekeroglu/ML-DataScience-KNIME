@@ -14,5 +14,5 @@ This repository will be updated.
 9-KNIME - Ensemble Learning (MAVL) (DL4J Feedforward for Classification + Naive Bayes + SVM)                                          
 10-KNIME - Random Forest (Random Forest + Tree Ensemble + Random Forest Regression)                                                 
 11-KNIME - Clustering (K-Means + Decision Tree)                                                                         
-12-KNIME - Gender Classification (Logistic Regression + Random Forest + DL4J Feedforward for Classification)
+12-KNIME - Gender Classification (Logistic Regression + Random Forest + DL4J Feedforward for Classification)              
 13-KNIME - Naive Bayes (Binning)                                                                                              
