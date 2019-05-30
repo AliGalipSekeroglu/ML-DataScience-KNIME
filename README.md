@@ -16,4 +16,5 @@ This repository will be updated.
 11-KNIME - Clustering (K-Means + Decision Tree)                                                                         
 12-KNIME - Gender Classification (Logistic Regression + Random Forest + DL4J Feedforward for Classification)              
 13-KNIME - Naive Bayes (Binning)                                       
-14-KNIME - Metanodes and Loops (KNN + Naive Bayes + Decision Tree)        
+14-KNIME - Metanodes and Loops (KNN + Naive Bayes + Decision Tree)                                                    
+15-KNIME - Customer Segmentation (K-Means)                                                                    
