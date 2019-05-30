@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="naivebayesDataModel">
+<entry key="ClassColumnName" type="xstring" value="loan_status"/>
+<config key="ClassColumnType">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="Threshold" type="xdouble" value="1.0E-4"/>
+<config key="SkippedAttributes">
+<entry key="SkippedAttributesCounter" type="xint" value="1"/>
+<config key="SkippedAttributeData_0">
+<entry key="attributeName" type="xstring" value="paid_off_time"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" value="Too many values"/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="1"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="200"/>
+<entry key="0" type="xstring" value="9/14/2016 19:31"/>
+<entry key="1" type="xstring" value="10/7/2016 9:00"/>
+<entry key="2" type="xstring" value="9/25/2016 16:58"/>
+<entry key="3" type="xstring" value="9/22/2016 20:00"/>
+<entry key="4" type="xstring" value="9/23/2016 21:36"/>
+<entry key="5" type="xstring" value="9/9/2016 13:45"/>
+<entry key="6" type="xstring" value="10/7/2016 23:07"/>
+<entry key="7" type="xstring" value="10/5/2016 20:33"/>
+<entry key="8" type="xstring" value="10/8/2016 16:00"/>
+<entry key="9" type="xstring" value="9/24/2016 13:00"/>
+<entry key="10" type="xstring" value="9/11/2016 19:11"/>
+<entry key="11" type="xstring" value="10/9/2016 16:00"/>
+<entry key="12" type="xstring" value="10/7/2016 23:32"/>
+<entry key="13" type="xstring" value="9/13/2016 21:57"/>
+<entry key="14" type="xstring" value="9/15/2016 14:27"/>
+<entry key="15" type="xstring" value="9/24/2016 16:00"/>
+<entry key="16" type="xstring" value="9/27/2016 14:21"/>
+<entry key="17" type="xstring" value="9/23/2016 18:49"/>
+<entry key="18" type="xstring" value="10/5/2016 22:05"/>
+<entry key="19" type="xstring" value="9/23/2016 7:42"/>
+<entry key="20" type="xstring" value="10/9/2016 9:00"/>
+<entry key="21" type="xstring" value="10/8/2016 17:09"/>
+<entry key="22" type="xstring" value="10/9/2016 23:00"/>
+<entry key="23" type="xstring" value="10/3/2016 12:50"/>
+<entry key="24" type="xstring" value="9/29/2016 12:18"/>
+<entry key="25" type="xstring" value="9/21/2016 20:16"/>
+<entry key="26" type="xstring" value="9/23/2016 8:21"/>
+<entry key="27" type="xstring" value="9/22/2016 19:17"/>
+<entry key="28" type="xstring" value="10/9/2016 17:33"/>
+<entry key="29" type="xstring" value="9/24/2016 14:41"/>
+<entry key="30" type="xstring" value="10/7/2016 21:48"/>
+<entry key="31" type="xstring" value="10/9/2016 17:44"/>
+<entry key="32" type="xstring" value="10/9/2016 7:24"/>
+<entry key="33" type="xstring" value="9/25/2016 21:49"/>
+<entry key="34" type="xstring" value="9/25/2016 9:00"/>
+<entry key="35" type="xstring" value="9/25/2016 13:00"/>
+<entry key="36" type="xstring" value="10/10/2016 11:33"/>
+<entry key="37" type="xstring" value="9/25/2016 14:36"/>
+<entry key="38" type="xstring" value="9/24/2016 9:00"/>
+<entry key="39" type="xstring" value="9/20/2016 15:00"/>
+<entry key="40" type="xstring" value="9/21/2016 22:29"/>
+<entry key="41" type="xstring" value="9/12/2016 22:17"/>
+<entry key="42" type="xstring" value="10/8/2016 14:14"/>
+<entry key="43" type="xstring" value="10/9/2016 8:53"/>
+<entry key="44" type="xstring" value="10/10/2016 9:00"/>
+<entry key="45" type="xstring" value="9/25/2016 19:21"/>
+<entry key="46" type="xstring" value="9/13/2016 4:34"/>
+<entry key="47" type="xstring" value="10/10/2016 16:00"/>
+<entry key="48" type="xstring" value="9/25/2016 16:00"/>
+<entry key="49" type="xstring" value="9/24/2016 11:40"/>
+<entry key="50" type="xstring" value="9/22/2016 6:38"/>
+<entry key="51" type="xstring" value="9/30/2016 21:12"/>
+<entry key="52" type="xstring" value="9/24/2016 13:42"/>
+<entry key="53" type="xstring" value="9/12/2016 11:40"/>
+<entry key="54" type="xstring" value="9/25/2016 14:38"/>
+<entry key="55" type="xstring" value="9/25/2016 23:00"/>
+<entry key="56" type="xstring" value="10/8/2016 12:04"/>
+<entry key="57" type="xstring" value="9/14/2016 22:05"/>
+<entry key="58" type="xstring" value="9/24/2016 13:27"/>
+<entry key="59" type="xstring" value="9/24/2016 22:53"/>
+<entry key="60" type="xstring" value="10/8/2016 13:12"/>
+<entry key="61" type="xstring" value="10/9/2016 13:49"/>
+<entry key="62" type="xstring" value="9/30/2016 14:29"/>
+<entry key="63" type="xstring" value="9/21/2016 16:18"/>
+<entry key="64" type="xstring" value="9/13/2016 14:53"/>
+<entry key="65" type="xstring" value="10/10/2016 13:00"/>
+<entry key="66" type="xstring" value="11/9/2016 9:00"/>
+<entry key="67" type="xstring" value="9/21/2016 9:35"/>
+<entry key="68" type="xstring" value="9/24/2016 20:33"/>
+<entry key="69" type="xstring" value="9/17/2016 9:00"/>
+<entry key="70" type="xstring" value="9/24/2016 0:12"/>
+<entry key="71" type="xstring" value="9/21/2016 12:43"/>
+<entry key="72" type="xstring" value="10/8/2016 20:49"/>
+<entry key="73" type="xstring" value="10/10/2016 9:01"/>
+<entry key="74" type="xstring" value="10/8/2016 16:55"/>
+<entry key="75" type="xstring" value="9/25/2016 23:48"/>
+<entry key="76" type="xstring" value="9/22/2016 13:15"/>
+<entry key="77" type="xstring" value="9/23/2016 13:31"/>
+<entry key="78" type="xstring" value="10/8/2016 17:19"/>
+<entry key="79" type="xstring" value="10/9/2016 13:05"/>
+<entry key="80" type="xstring" value="9/20/2016 20:47"/>
+<entry key="81" type="xstring" value="10/10/2016 13:01"/>
+<entry key="82" type="xstring" value="10/8/2016 21:39"/>
+<entry key="83" type="xstring" value="10/7/2016 14:23"/>
+<entry key="84" type="xstring" value="10/6/2016 15:25"/>
+<entry key="85" type="xstring" value="10/8/2016 6:56"/>
+<entry key="86" type="xstring" value="9/16/2016 11:58"/>
+<entry key="87" type="xstring" value="10/10/2016 16:01"/>
+<entry key="88" type="xstring" value="9/27/2016 7:02"/>
+<entry key="89" type="xstring" value="10/25/2016 9:00"/>
+<entry key="90" type="xstring" value="9/24/2016 11:02"/>
+<entry key="91" type="xstring" value="9/29/2016 18:57"/>
+<entry key="92" type="xstring" value="9/25/2016 12:24"/>
+<entry key="93" type="xstring" value="9/26/2016 4:41"/>
+<entry key="94" type="xstring" value="9/22/2016 15:44"/>
+<entry key="95" type="xstring" value="10/10/2016 16:13"/>
+<entry key="96" type="xstring" value="9/30/2016 7:12"/>
+<entry key="97" type="xstring" value="9/23/2016 11:26"/>
+<entry key="98" type="xstring" value="9/12/2016 10:26"/>
+<entry key="99" type="xstring" value="9/22/2016 21:45"/>
+<entry key="100" type="xstring" value="10/9/2016 20:28"/>
+<entry key="101" type="xstring" value="10/1/2016 16:48"/>
+<entry key="102" type="xstring" value="9/15/2016 20:36"/>
+<entry key="103" type="xstring" value="9/21/2016 15:33"/>
+<entry key="104" type="xstring" value="9/29/2016 13:36"/>
+<entry key="105" type="xstring" value="9/22/2016 20:51"/>
+<entry key="106" type="xstring" value="11/9/2016 23:00"/>
+<entry key="107" type="xstring" value="9/18/2016 9:00"/>
+<entry key="108" type="xstring" value="9/24/2016 10:14"/>
+<entry key="109" type="xstring" value="10/26/2016 9:00"/>
+<entry key="110" type="xstring" value="9/23/2016 20:30"/>
+<entry key="111" type="xstring" value="9/13/2016 20:17"/>
+<entry key="112" type="xstring" value="10/10/2016 7:01"/>
+<entry key="113" type="xstring" value="10/11/2016 13:00"/>
+<entry key="114" type="xstring" value="9/26/2016 9:00"/>
+<entry key="115" type="xstring" value="9/24/2016 14:55"/>
+<entry key="116" type="xstring" value="9/25/2016 20:56"/>
+<entry key="117" type="xstring" value="9/25/2016 22:09"/>
+<entry key="118" type="xstring" value="10/11/2016 9:00"/>
+<entry key="119" type="xstring" value="9/26/2016 19:33"/>
+<entry key="120" type="xstring" value="11/10/2016 16:00"/>
+<entry key="121" type="xstring" value="10/11/2016 16:00"/>
+<entry key="122" type="xstring" value="9/26/2016 13:00"/>
+<entry key="123" type="xstring" value="9/26/2016 16:00"/>
+<entry key="124" type="xstring" value="9/17/2016 7:39"/>
+<entry key="125" type="xstring" value="9/22/2016 10:30"/>
+<entry key="126" type="xstring" value="10/10/2016 20:41"/>
+<entry key="127" type="xstring" value="10/10/2016 8:04"/>
+<entry key="128" type="xstring" value="9/24/2016 11:00"/>
+<entry key="129" type="xstring" value="10/7/2016 11:53"/>
+<entry key="130" type="xstring" value="9/25/2016 8:39"/>
+<entry key="131" type="xstring" value="10/1/2016 10:18"/>
+<entry key="132" type="xstring" value="9/19/2016 21:07"/>
+<entry key="133" type="xstring" value="9/30/2016 14:38"/>
+<entry key="134" type="xstring" value="9/14/2016 20:31"/>
+<entry key="135" type="xstring" value="9/24/2016 16:15"/>
+<entry key="136" type="xstring" value="10/10/2016 15:49"/>
+<entry key="137" type="xstring" value="11/10/2016 13:00"/>
+<entry key="138" type="xstring" value="9/23/2016 10:32"/>
+<entry key="139" type="xstring" value="9/30/2016 14:03"/>
+<entry key="140" type="xstring" value="10/9/2016 14:17"/>
+<entry key="141" type="xstring" value="9/20/2016 8:26"/>
+<entry key="142" type="xstring" value="10/11/2016 23:00"/>
+<entry key="143" type="xstring" value="9/24/2016 20:47"/>
+<entry key="144" type="xstring" value="10/11/2016 9:01"/>
+<entry key="145" type="xstring" value="9/16/2016 14:52"/>
+<entry key="146" type="xstring" value="9/12/2016 14:40"/>
+<entry key="147" type="xstring" value="9/23/2016 21:58"/>
+<entry key="148" type="xstring" value="10/8/2016 18:48"/>
+<entry key="149" type="xstring" value="10/10/2016 16:41"/>
+<entry key="150" type="xstring" value="10/11/2016 13:01"/>
+<entry key="151" type="xstring" value="9/16/2016 2:34"/>
+<entry key="152" type="xstring" value="9/21/2016 8:11"/>
+<entry key="153" type="xstring" value="9/26/2016 23:00"/>
+<entry key="154" type="xstring" value="10/9/2016 10:00"/>
+<entry key="155" type="xstring" value="9/23/2016 14:01"/>
+<entry key="156" type="xstring" value="9/25/2016 13:29"/>
+<entry key="157" type="xstring" value="9/25/2016 14:50"/>
+<entry key="158" type="xstring" value="9/25/2016 9:01"/>
+<entry key="159" type="xstring" value="10/8/2016 15:35"/>
+<entry key="160" type="xstring" value="10/11/2016 16:01"/>
+<entry key="161" type="xstring" value="9/26/2016 19:35"/>
+<entry key="162" type="xstring" value="10/9/2016 21:28"/>
+<entry key="163" type="xstring" value="10/7/2016 16:45"/>
+<entry key="164" type="xstring" value="10/8/2016 11:03"/>
+<entry key="165" type="xstring" value="9/14/2016 19:48"/>
+<entry key="166" type="xstring" value="10/12/2016 23:00"/>
+<entry key="167" type="xstring" value="9/26/2016 21:18"/>
+<entry key="168" type="xstring" value="10/7/2016 10:22"/>
+<entry key="169" type="xstring" value="9/26/2016 6:17"/>
+<entry key="170" type="xstring" value="9/22/2016 16:57"/>
+<entry key="171" type="xstring" value="10/9/2016 21:57"/>
+<entry key="172" type="xstring" value="10/4/2016 12:59"/>
+<entry key="173" type="xstring" value="9/17/2016 20:51"/>
+<entry key="174" type="xstring" value="10/8/2016 15:51"/>
+<entry key="175" type="xstring" value="9/27/2016 9:00"/>
+<entry key="176" type="xstring" value="9/16/2016 15:57"/>
+<entry key="177" type="xstring" value="10/12/2016 9:00"/>
+<entry key="178" type="xstring" value="9/26/2016 7:48"/>
+<entry key="179" type="xstring" value="9/21/2016 16:53"/>
+<entry key="180" type="xstring" value="10/11/2016 0:29"/>
+<entry key="181" type="xstring" value="9/25/2016 10:37"/>
+<entry key="182" type="xstring" value="9/27/2016 13:00"/>
+<entry key="183" type="xstring" value="9/26/2016 15:10"/>
+<entry key="184" type="xstring" value="9/24/2016 12:46"/>
+<entry key="185" type="xstring" value="9/28/2016 9:00"/>
+<entry key="186" type="xstring" value="10/13/2016 9:00"/>
+<entry key="187" type="xstring" value="10/6/2016 12:09"/>
+<entry key="188" type="xstring" value="10/14/2016 11:03"/>
+<entry key="189" type="xstring" value="10/8/2016 17:12"/>
+<entry key="190" type="xstring" value="11/12/2016 9:00"/>
+<entry key="191" type="xstring" value="10/13/2016 13:00"/>
+<entry key="192" type="xstring" value="9/27/2016 15:52"/>
+<entry key="193" type="xstring" value="9/28/2016 13:00"/>
+<entry key="194" type="xstring" value="9/15/2016 0:43"/>
+<entry key="195" type="xstring" value="10/10/2016 10:25"/>
+<entry key="196" type="xstring" value="10/6/2016 6:51"/>
+<entry key="197" type="xstring" value="10/12/2016 6:25"/>
+<entry key="198" type="xstring" value="10/12/2016 12:30"/>
+<entry key="199" type="xstring" value="10/12/2016 3:49"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="264"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="200"/>
+<entry key="0" type="xstring" value="9/23/2016 20:30"/>
+<entry key="1" type="xstring" value="9/27/2016 13:00"/>
+<entry key="2" type="xstring" value="10/8/2016 16:55"/>
+<entry key="3" type="xstring" value="9/24/2016 14:55"/>
+<entry key="4" type="xstring" value="10/10/2016 8:04"/>
+<entry key="5" type="xstring" value="9/21/2016 8:11"/>
+<entry key="6" type="xstring" value="10/9/2016 9:00"/>
+<entry key="7" type="xstring" value="9/22/2016 19:17"/>
+<entry key="8" type="xstring" value="10/9/2016 13:05"/>
+<entry key="9" type="xstring" value="11/9/2016 9:00"/>
+<entry key="10" type="xstring" value="9/24/2016 10:14"/>
+<entry key="11" type="xstring" value="10/6/2016 15:25"/>
+<entry key="12" type="xstring" value="9/21/2016 12:43"/>
+<entry key="13" type="xstring" value="10/5/2016 20:33"/>
+<entry key="14" type="xstring" value="9/14/2016 22:05"/>
+<entry key="15" type="xstring" value="10/13/2016 9:00"/>
+<entry key="16" type="xstring" value="10/8/2016 17:19"/>
+<entry key="17" type="xstring" value="10/8/2016 12:04"/>
+<entry key="18" type="xstring" value="10/3/2016 12:50"/>
+<entry key="19" type="xstring" value="11/10/2016 13:00"/>
+<entry key="20" type="xstring" value="10/8/2016 17:12"/>
+<entry key="21" type="xstring" value="9/25/2016 21:49"/>
+<entry key="22" type="xstring" value="9/26/2016 4:41"/>
+<entry key="23" type="xstring" value="10/11/2016 9:00"/>
+<entry key="24" type="xstring" value="10/9/2016 17:44"/>
+<entry key="25" type="xstring" value="9/25/2016 10:37"/>
+<entry key="26" type="xstring" value="9/24/2016 14:41"/>
+<entry key="27" type="xstring" value="9/29/2016 18:57"/>
+<entry key="28" type="xstring" value="9/22/2016 20:00"/>
+<entry key="29" type="xstring" value="9/24/2016 9:00"/>
+<entry key="30" type="xstring" value="10/4/2016 12:59"/>
+<entry key="31" type="xstring" value="10/8/2016 17:09"/>
+<entry key="32" type="xstring" value="10/7/2016 23:07"/>
+<entry key="33" type="xstring" value="10/11/2016 16:00"/>
+<entry key="34" type="xstring" value="9/29/2016 13:36"/>
+<entry key="35" type="xstring" value="9/20/2016 8:26"/>
+<entry key="36" type="xstring" value="10/9/2016 8:53"/>
+<entry key="37" type="xstring" value="10/7/2016 16:45"/>
+<entry key="38" type="xstring" value="11/12/2016 9:00"/>
+<entry key="39" type="xstring" value="9/13/2016 20:17"/>
+<entry key="40" type="xstring" value="10/11/2016 16:01"/>
+<entry key="41" type="xstring" value="10/11/2016 9:01"/>
+<entry key="42" type="xstring" value="9/23/2016 7:42"/>
+<entry key="43" type="xstring" value="10/9/2016 17:33"/>
+<entry key="44" type="xstring" value="10/10/2016 9:00"/>
+<entry key="45" type="xstring" value="10/10/2016 9:01"/>
+<entry key="46" type="xstring" value="9/16/2016 15:57"/>
+<entry key="47" type="xstring" value="9/14/2016 19:48"/>
+<entry key="48" type="xstring" value="9/26/2016 23:00"/>
+<entry key="49" type="xstring" value="9/25/2016 23:00"/>
+<entry key="50" type="xstring" value="9/14/2016 19:31"/>
+<entry key="51" type="xstring" value="9/21/2016 16:53"/>
+<entry key="52" type="xstring" value="9/23/2016 8:21"/>
+<entry key="53" type="xstring" value="10/13/2016 13:00"/>
+<entry key="54" type="xstring" value="10/7/2016 11:53"/>
+<entry key="55" type="xstring" value="10/9/2016 13:49"/>
+<entry key="56" type="xstring" value="10/9/2016 14:17"/>
+<entry key="57" type="xstring" value="10/9/2016 7:24"/>
+<entry key="58" type="xstring" value="9/26/2016 9:00"/>
+<entry key="59" type="xstring" value="9/26/2016 16:00"/>
+<entry key="60" type="xstring" value="10/7/2016 23:32"/>
+<entry key="61" type="xstring" value="9/22/2016 20:51"/>
+<entry key="62" type="xstring" value="10/11/2016 23:00"/>
+<entry key="63" type="xstring" value="10/8/2016 15:35"/>
+<entry key="64" type="xstring" value="10/10/2016 16:01"/>
+<entry key="65" type="xstring" value="10/10/2016 16:00"/>
+<entry key="66" type="xstring" value="9/25/2016 12:24"/>
+<entry key="67" type="xstring" value="9/30/2016 7:12"/>
+<entry key="68" type="xstring" value="9/15/2016 20:36"/>
+<entry key="69" type="xstring" value="9/16/2016 2:34"/>
+<entry key="70" type="xstring" value="10/8/2016 16:00"/>
+<entry key="71" type="xstring" value="9/13/2016 21:57"/>
+<entry key="72" type="xstring" value="9/21/2016 9:35"/>
+<entry key="73" type="xstring" value="9/17/2016 7:39"/>
+<entry key="74" type="xstring" value="9/21/2016 20:16"/>
+<entry key="75" type="xstring" value="10/1/2016 10:18"/>
+<entry key="76" type="xstring" value="9/18/2016 9:00"/>
+<entry key="77" type="xstring" value="9/24/2016 20:33"/>
+<entry key="78" type="xstring" value="9/23/2016 14:01"/>
+<entry key="79" type="xstring" value="10/8/2016 6:56"/>
+<entry key="80" type="xstring" value="9/23/2016 13:31"/>
+<entry key="81" type="xstring" value="10/12/2016 3:49"/>
+<entry key="82" type="xstring" value="9/25/2016 16:58"/>
+<entry key="83" type="xstring" value="9/23/2016 18:49"/>
+<entry key="84" type="xstring" value="10/6/2016 12:09"/>
+<entry key="85" type="xstring" value="9/22/2016 6:38"/>
+<entry key="86" type="xstring" value="9/13/2016 4:34"/>
+<entry key="87" type="xstring" value="9/24/2016 16:15"/>
+<entry key="88" type="xstring" value="9/13/2016 14:53"/>
+<entry key="89" type="xstring" value="9/16/2016 11:58"/>
+<entry key="90" type="xstring" value="10/10/2016 20:41"/>
+<entry key="91" type="xstring" value="9/24/2016 11:00"/>
+<entry key="92" type="xstring" value="9/24/2016 11:02"/>
+<entry key="93" type="xstring" value="9/26/2016 15:10"/>
+<entry key="94" type="xstring" value="9/17/2016 9:00"/>
+<entry key="95" type="xstring" value="9/22/2016 21:45"/>
+<entry key="96" type="xstring" value="9/24/2016 20:47"/>
+<entry key="97" type="xstring" value="9/22/2016 10:30"/>
+<entry key="98" type="xstring" value="9/22/2016 15:44"/>
+<entry key="99" type="xstring" value="9/29/2016 12:18"/>
+<entry key="100" type="xstring" value="10/8/2016 15:51"/>
+<entry key="101" type="xstring" value="9/25/2016 9:00"/>
+<entry key="102" type="xstring" value="10/10/2016 7:01"/>
+<entry key="103" type="xstring" value="9/25/2016 9:01"/>
+<entry key="104" type="xstring" value="9/30/2016 14:03"/>
+<entry key="105" type="xstring" value="10/8/2016 21:39"/>
+<entry key="106" type="xstring" value="9/19/2016 21:07"/>
+<entry key="107" type="xstring" value="9/25/2016 23:48"/>
+<entry key="108" type="xstring" value="9/25/2016 8:39"/>
+<entry key="109" type="xstring" value="9/26/2016 21:18"/>
+<entry key="110" type="xstring" value="9/24/2016 16:00"/>
+<entry key="111" type="xstring" value="10/12/2016 9:00"/>
+<entry key="112" type="xstring" value="10/25/2016 9:00"/>
+<entry key="113" type="xstring" value="9/25/2016 13:00"/>
+<entry key="114" type="xstring" value="9/15/2016 0:43"/>
+<entry key="115" type="xstring" value="10/8/2016 11:03"/>
+<entry key="116" type="xstring" value="9/20/2016 15:00"/>
+<entry key="117" type="xstring" value="9/24/2016 13:00"/>
+<entry key="118" type="xstring" value="9/30/2016 14:38"/>
+<entry key="119" type="xstring" value="10/10/2016 16:41"/>
+<entry key="120" type="xstring" value="9/26/2016 19:35"/>
+<entry key="121" type="xstring" value="10/9/2016 16:00"/>
+<entry key="122" type="xstring" value="9/26/2016 19:33"/>
+<entry key="123" type="xstring" value="9/21/2016 15:33"/>
+<entry key="124" type="xstring" value="9/30/2016 21:12"/>
+<entry key="125" type="xstring" value="9/17/2016 20:51"/>
+<entry key="126" type="xstring" value="10/9/2016 21:28"/>
+<entry key="127" type="xstring" value="10/10/2016 11:33"/>
+<entry key="128" type="xstring" value="10/11/2016 0:29"/>
+<entry key="129" type="xstring" value="9/30/2016 14:29"/>
+<entry key="130" type="xstring" value="10/9/2016 10:00"/>
+<entry key="131" type="xstring" value="10/8/2016 20:49"/>
+<entry key="132" type="xstring" value="10/11/2016 13:01"/>
+<entry key="133" type="xstring" value="10/11/2016 13:00"/>
+<entry key="134" type="xstring" value="9/25/2016 13:29"/>
+<entry key="135" type="xstring" value="10/8/2016 14:14"/>
+<entry key="136" type="xstring" value="9/9/2016 13:45"/>
+<entry key="137" type="xstring" value="10/7/2016 14:23"/>
+<entry key="138" type="xstring" value="9/24/2016 11:40"/>
+<entry key="139" type="xstring" value="9/26/2016 7:48"/>
+<entry key="140" type="xstring" value="10/12/2016 12:30"/>
+<entry key="141" type="xstring" value="10/26/2016 9:00"/>
+<entry key="142" type="xstring" value="9/15/2016 14:27"/>
+<entry key="143" type="xstring" value="9/23/2016 11:26"/>
+<entry key="144" type="xstring" value="9/12/2016 11:40"/>
+<entry key="145" type="xstring" value="9/20/2016 20:47"/>
+<entry key="146" type="xstring" value="10/10/2016 10:25"/>
+<entry key="147" type="xstring" value="9/27/2016 7:02"/>
+<entry key="148" type="xstring" value="9/22/2016 16:57"/>
+<entry key="149" type="xstring" value="9/27/2016 15:52"/>
+<entry key="150" type="xstring" value="9/25/2016 19:21"/>
+<entry key="151" type="xstring" value="11/10/2016 16:00"/>
+<entry key="152" type="xstring" value="10/10/2016 15:49"/>
+<entry key="153" type="xstring" value="10/9/2016 20:28"/>
+<entry key="154" type="xstring" value="10/10/2016 16:13"/>
+<entry key="155" type="xstring" value="9/24/2016 13:42"/>
+<entry key="156" type="xstring" value="9/23/2016 10:32"/>
+<entry key="157" type="xstring" value="9/26/2016 6:17"/>
+<entry key="158" type="xstring" value="10/9/2016 23:00"/>
+<entry key="159" type="xstring" value="10/8/2016 13:12"/>
+<entry key="160" type="xstring" value="9/12/2016 14:40"/>
+<entry key="161" type="xstring" value="9/27/2016 9:00"/>
+<entry key="162" type="xstring" value="9/27/2016 14:21"/>
+<entry key="163" type="xstring" value="9/23/2016 21:58"/>
+<entry key="164" type="xstring" value="9/14/2016 20:31"/>
+<entry key="165" type="xstring" value="10/9/2016 21:57"/>
+<entry key="166" type="xstring" value="9/24/2016 22:53"/>
+<entry key="167" type="xstring" value="10/14/2016 11:03"/>
+<entry key="168" type="xstring" value="9/25/2016 14:36"/>
+<entry key="169" type="xstring" value="10/10/2016 13:01"/>
+<entry key="170" type="xstring" value="10/5/2016 22:05"/>
+<entry key="171" type="xstring" value="9/25/2016 14:38"/>
+<entry key="172" type="xstring" value="10/10/2016 13:00"/>
+<entry key="173" type="xstring" value="10/7/2016 10:22"/>
+<entry key="174" type="xstring" value="9/25/2016 22:09"/>
+<entry key="175" type="xstring" value="9/25/2016 16:00"/>
+<entry key="176" type="xstring" value="9/12/2016 10:26"/>
+<entry key="177" type="xstring" value="9/11/2016 19:11"/>
+<entry key="178" type="xstring" value="9/22/2016 13:15"/>
+<entry key="179" type="xstring" value="9/21/2016 22:29"/>
+<entry key="180" type="xstring" value="9/24/2016 13:27"/>
+<entry key="181" type="xstring" value="10/12/2016 23:00"/>
+<entry key="182" type="xstring" value="9/28/2016 13:00"/>
+<entry key="183" type="xstring" value="10/12/2016 6:25"/>
+<entry key="184" type="xstring" value="10/1/2016 16:48"/>
+<entry key="185" type="xstring" value="11/9/2016 23:00"/>
+<entry key="186" type="xstring" value="10/8/2016 18:48"/>
+<entry key="187" type="xstring" value="9/12/2016 22:17"/>
+<entry key="188" type="xstring" value="9/28/2016 9:00"/>
+<entry key="189" type="xstring" value="10/7/2016 9:00"/>
+<entry key="190" type="xstring" value="9/25/2016 14:50"/>
+<entry key="191" type="xstring" value="9/25/2016 20:56"/>
+<entry key="192" type="xstring" value="9/24/2016 0:12"/>
+<entry key="193" type="xstring" value="9/26/2016 13:00"/>
+<entry key="194" type="xstring" value="9/23/2016 21:36"/>
+<entry key="195" type="xstring" value="9/24/2016 12:46"/>
+<entry key="196" type="xstring" value="10/6/2016 6:51"/>
+<entry key="197" type="xstring" value="9/16/2016 14:52"/>
+<entry key="198" type="xstring" value="9/21/2016 16:18"/>
+<entry key="199" type="xstring" value="10/7/2016 21:48"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="200"/>
+<entry key="0" type="xlong" value="1"/>
+<entry key="1" type="xlong" value="1"/>
+<entry key="2" type="xlong" value="1"/>
+<entry key="3" type="xlong" value="1"/>
+<entry key="4" type="xlong" value="1"/>
+<entry key="5" type="xlong" value="1"/>
+<entry key="6" type="xlong" value="1"/>
+<entry key="7" type="xlong" value="1"/>
+<entry key="8" type="xlong" value="1"/>
+<entry key="9" type="xlong" value="2"/>
+<entry key="10" type="xlong" value="1"/>
+<entry key="11" type="xlong" value="1"/>
+<entry key="12" type="xlong" value="1"/>
+<entry key="13" type="xlong" value="1"/>
+<entry key="14" type="xlong" value="1"/>
+<entry key="15" type="xlong" value="3"/>
+<entry key="16" type="xlong" value="1"/>
+<entry key="17" type="xlong" value="1"/>
+<entry key="18" type="xlong" value="1"/>
+<entry key="19" type="xlong" value="3"/>
+<entry key="20" type="xlong" value="1"/>
+<entry key="21" type="xlong" value="1"/>
+<entry key="22" type="xlong" value="1"/>
+<entry key="23" type="xlong" value="4"/>
+<entry key="24" type="xlong" value="1"/>
+<entry key="25" type="xlong" value="1"/>
+<entry key="26" type="xlong" value="1"/>
+<entry key="27" type="xlong" value="1"/>
+<entry key="28" type="xlong" value="1"/>
+<entry key="29" type="xlong" value="1"/>
+<entry key="30" type="xlong" value="1"/>
+<entry key="31" type="xlong" value="1"/>
+<entry key="32" type="xlong" value="1"/>
+<entry key="33" type="xlong" value="4"/>
+<entry key="34" type="xlong" value="1"/>
+<entry key="35" type="xlong" value="1"/>
+<entry key="36" type="xlong" value="1"/>
+<entry key="37" type="xlong" value="1"/>
+<entry key="38" type="xlong" value="2"/>
+<entry key="39" type="xlong" value="1"/>
+<entry key="40" type="xlong" value="1"/>
+<entry key="41" type="xlong" value="3"/>
+<entry key="42" type="xlong" value="1"/>
+<entry key="43" type="xlong" value="1"/>
+<entry key="44" type="xlong" value="8"/>
+<entry key="45" type="xlong" value="4"/>
+<entry key="46" type="xlong" value="1"/>
+<entry key="47" type="xlong" value="1"/>
+<entry key="48" type="xlong" value="2"/>
+<entry key="49" type="xlong" value="2"/>
+<entry key="50" type="xlong" value="1"/>
+<entry key="51" type="xlong" value="1"/>
+<entry key="52" type="xlong" value="1"/>
+<entry key="53" type="xlong" value="2"/>
+<entry key="54" type="xlong" value="1"/>
+<entry key="55" type="xlong" value="1"/>
+<entry key="56" type="xlong" value="1"/>
+<entry key="57" type="xlong" value="1"/>
+<entry key="58" type="xlong" value="7"/>
+<entry key="59" type="xlong" value="3"/>
+<entry key="60" type="xlong" value="1"/>
+<entry key="61" type="xlong" value="1"/>
+<entry key="62" type="xlong" value="1"/>
+<entry key="63" type="xlong" value="1"/>
+<entry key="64" type="xlong" value="1"/>
+<entry key="65" type="xlong" value="3"/>
+<entry key="66" type="xlong" value="1"/>
+<entry key="67" type="xlong" value="1"/>
+<entry key="68" type="xlong" value="1"/>
+<entry key="69" type="xlong" value="1"/>
+<entry key="70" type="xlong" value="1"/>
+<entry key="71" type="xlong" value="1"/>
+<entry key="72" type="xlong" value="1"/>
+<entry key="73" type="xlong" value="1"/>
+<entry key="74" type="xlong" value="1"/>
+<entry key="75" type="xlong" value="1"/>
+<entry key="76" type="xlong" value="1"/>
+<entry key="77" type="xlong" value="1"/>
+<entry key="78" type="xlong" value="1"/>
+<entry key="79" type="xlong" value="1"/>
+<entry key="80" type="xlong" value="1"/>
+<entry key="81" type="xlong" value="1"/>
+<entry key="82" type="xlong" value="1"/>
+<entry key="83" type="xlong" value="1"/>
+<entry key="84" type="xlong" value="1"/>
+<entry key="85" type="xlong" value="1"/>
+<entry key="86" type="xlong" value="1"/>
+<entry key="87" type="xlong" value="1"/>
+<entry key="88" type="xlong" value="1"/>
+<entry key="89" type="xlong" value="1"/>
+<entry key="90" type="xlong" value="1"/>
+<entry key="91" type="xlong" value="1"/>
+<entry key="92" type="xlong" value="1"/>
+<entry key="93" type="xlong" value="1"/>
+<entry key="94" type="xlong" value="2"/>
+<entry key="95" type="xlong" value="1"/>
+<entry key="96" type="xlong" value="1"/>
+<entry key="97" type="xlong" value="1"/>
+<entry key="98" type="xlong" value="1"/>
+<entry key="99" type="xlong" value="1"/>
+<entry key="100" type="xlong" value="1"/>
+<entry key="101" type="xlong" value="8"/>
+<entry key="102" type="xlong" value="1"/>
+<entry key="103" type="xlong" value="1"/>
+<entry key="104" type="xlong" value="1"/>
+<entry key="105" type="xlong" value="1"/>
+<entry key="106" type="xlong" value="1"/>
+<entry key="107" type="xlong" value="1"/>
+<entry key="108" type="xlong" value="1"/>
+<entry key="109" type="xlong" value="1"/>
+<entry key="110" type="xlong" value="1"/>
+<entry key="111" type="xlong" value="1"/>
+<entry key="112" type="xlong" value="2"/>
+<entry key="113" type="xlong" value="5"/>
+<entry key="114" type="xlong" value="1"/>
+<entry key="115" type="xlong" value="1"/>
+<entry key="116" type="xlong" value="1"/>
+<entry key="117" type="xlong" value="2"/>
+<entry key="118" type="xlong" value="1"/>
+<entry key="119" type="xlong" value="1"/>
+<entry key="120" type="xlong" value="1"/>
+<entry key="121" type="xlong" value="1"/>
+<entry key="122" type="xlong" value="1"/>
+<entry key="123" type="xlong" value="1"/>
+<entry key="124" type="xlong" value="1"/>
+<entry key="125" type="xlong" value="1"/>
+<entry key="126" type="xlong" value="1"/>
+<entry key="127" type="xlong" value="1"/>
+<entry key="128" type="xlong" value="1"/>
+<entry key="129" type="xlong" value="1"/>
+<entry key="130" type="xlong" value="1"/>
+<entry key="131" type="xlong" value="1"/>
+<entry key="132" type="xlong" value="2"/>
+<entry key="133" type="xlong" value="3"/>
+<entry key="134" type="xlong" value="1"/>
+<entry key="135" type="xlong" value="1"/>
+<entry key="136" type="xlong" value="1"/>
+<entry key="137" type="xlong" value="1"/>
+<entry key="138" type="xlong" value="1"/>
+<entry key="139" type="xlong" value="1"/>
+<entry key="140" type="xlong" value="1"/>
+<entry key="141" type="xlong" value="2"/>
+<entry key="142" type="xlong" value="1"/>
+<entry key="143" type="xlong" value="1"/>
+<entry key="144" type="xlong" value="1"/>
+<entry key="145" type="xlong" value="1"/>
+<entry key="146" type="xlong" value="1"/>
+<entry key="147" type="xlong" value="1"/>
+<entry key="148" type="xlong" value="1"/>
+<entry key="149" type="xlong" value="1"/>
+<entry key="150" type="xlong" value="1"/>
+<entry key="151" type="xlong" value="2"/>
+<entry key="152" type="xlong" value="1"/>
+<entry key="153" type="xlong" value="1"/>
+<entry key="154" type="xlong" value="1"/>
+<entry key="155" type="xlong" value="1"/>
+<entry key="156" type="xlong" value="1"/>
+<entry key="157" type="xlong" value="1"/>
+<entry key="158" type="xlong" value="1"/>
+<entry key="159" type="xlong" value="1"/>
+<entry key="160" type="xlong" value="1"/>
+<entry key="161" type="xlong" value="2"/>
+<entry key="162" type="xlong" value="1"/>
+<entry key="163" type="xlong" value="1"/>
+<entry key="164" type="xlong" value="1"/>
+<entry key="165" type="xlong" value="1"/>
+<entry key="166" type="xlong" value="1"/>
+<entry key="167" type="xlong" value="1"/>
+<entry key="168" type="xlong" value="1"/>
+<entry key="169" type="xlong" value="2"/>
+<entry key="170" type="xlong" value="1"/>
+<entry key="171" type="xlong" value="1"/>
+<entry key="172" type="xlong" value="2"/>
+<entry key="173" type="xlong" value="1"/>
+<entry key="174" type="xlong" value="1"/>
+<entry key="175" type="xlong" value="2"/>
+<entry key="176" type="xlong" value="1"/>
+<entry key="177" type="xlong" value="1"/>
+<entry key="178" type="xlong" value="1"/>
+<entry key="179" type="xlong" value="1"/>
+<entry key="180" type="xlong" value="1"/>
+<entry key="181" type="xlong" value="2"/>
+<entry key="182" type="xlong" value="1"/>
+<entry key="183" type="xlong" value="1"/>
+<entry key="184" type="xlong" value="1"/>
+<entry key="185" type="xlong" value="1"/>
+<entry key="186" type="xlong" value="1"/>
+<entry key="187" type="xlong" value="1"/>
+<entry key="188" type="xlong" value="1"/>
+<entry key="189" type="xlong" value="1"/>
+<entry key="190" type="xlong" value="1"/>
+<entry key="191" type="xlong" value="1"/>
+<entry key="192" type="xlong" value="1"/>
+<entry key="193" type="xlong" value="4"/>
+<entry key="194" type="xlong" value="1"/>
+<entry key="195" type="xlong" value="1"/>
+<entry key="196" type="xlong" value="1"/>
+<entry key="197" type="xlong" value="1"/>
+<entry key="198" type="xlong" value="1"/>
+<entry key="199" type="xlong" value="1"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelSection">
+<entry key="AttributeModelCounter" type="xint" value="9"/>
+<config key="AttributeModelData_0">
+<entry key="attributeName" type="xstring" value="loan_status"/>
+<entry key="type" type="xstring" value="ClassModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="totalNoOfRecords" type="xlong" value="450"/>
+<entry key="maxNoOfClassValues" type="xlong" value="200"/>
+<config key="classValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="PAIDOFF"/>
+<entry key="1" type="xstring" value="COLLECTION"/>
+<entry key="2" type="xstring" value="COLLECTION_PAIDOFF"/>
+</config>
+<config key="classRecordCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="273"/>
+<entry key="1" type="xlong" value="91"/>
+<entry key="2" type="xlong" value="86"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_1">
+<entry key="attributeName" type="xstring" value="Principal"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="PAIDOFF"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="273"/>
+<entry key="mean" type="xdouble" value="936.2637362637364"/>
+<entry key="sd" type="xdouble" value="127.6338543478763"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="COLLECTION"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="91"/>
+<entry key="mean" type="xdouble" value="956.0439560439562"/>
+<entry key="sd" type="xdouble" value="83.27837015268092"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="COLLECTION_PAIDOFF"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="86"/>
+<entry key="mean" type="xdouble" value="960.4651162790698"/>
+<entry key="sd" type="xdouble" value="80.11619468723406"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_2">
+<entry key="attributeName" type="xstring" value="terms"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="PAIDOFF"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="273"/>
+<entry key="mean" type="xdouble" value="22.38461538461537"/>
+<entry key="sd" type="xdouble" value="8.283713509185507"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="COLLECTION"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="91"/>
+<entry key="mean" type="xdouble" value="23.736263736263737"/>
+<entry key="sd" type="xdouble" value="7.438391649387006"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="COLLECTION_PAIDOFF"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="86"/>
+<entry key="mean" type="xdouble" value="24.151162790697683"/>
+<entry key="sd" type="xdouble" value="7.504535792142001"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_3">
+<entry key="attributeName" type="xstring" value="effective_date"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="9/8/2016"/>
+<entry key="1" type="xstring" value="9/9/2016"/>
+<entry key="2" type="xstring" value="9/10/2016"/>
+<entry key="3" type="xstring" value="9/11/2016"/>
+<entry key="4" type="xstring" value="9/12/2016"/>
+<entry key="5" type="xstring" value="9/13/2016"/>
+<entry key="6" type="xstring" value="9/14/2016"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="273"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xstring" value="9/13/2016"/>
+<entry key="1" type="xstring" value="9/8/2016"/>
+<entry key="2" type="xstring" value="9/9/2016"/>
+<entry key="3" type="xstring" value="9/10/2016"/>
+<entry key="4" type="xstring" value="9/14/2016"/>
+<entry key="5" type="xstring" value="9/11/2016"/>
+<entry key="6" type="xstring" value="9/12/2016"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="7"/>
+<entry key="0" type="xlong" value="22"/>
+<entry key="1" type="xlong" value="4"/>
+<entry key="2" type="xlong" value="5"/>
+<entry key="3" type="xlong" value="19"/>
+<entry key="4" type="xlong" value="28"/>
+<entry key="5" type="xlong" value="110"/>
+<entry key="6" type="xlong" value="85"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="COLLECTION"/>
+<entry key="noOfRows" type="xlong" value="91"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="9/9/2016"/>
+<entry key="1" type="xstring" value="9/10/2016"/>
+<entry key="2" type="xstring" value="9/11/2016"/>
+<entry key="3" type="xstring" value="9/12/2016"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="5"/>
+<entry key="1" type="xlong" value="18"/>
+<entry key="2" type="xlong" value="64"/>
+<entry key="3" type="xlong" value="4"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="COLLECTION_PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="86"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="9/9/2016"/>
+<entry key="1" type="xstring" value="9/10/2016"/>
+<entry key="2" type="xstring" value="9/11/2016"/>
+<entry key="3" type="xstring" value="9/12/2016"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="5"/>
+<entry key="1" type="xlong" value="5"/>
+<entry key="2" type="xlong" value="39"/>
+<entry key="3" type="xlong" value="37"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_4">
+<entry key="attributeName" type="xstring" value="due_date"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="25"/>
+<entry key="0" type="xstring" value="10/7/2016"/>
+<entry key="1" type="xstring" value="9/22/2016"/>
+<entry key="2" type="xstring" value="10/8/2016"/>
+<entry key="3" type="xstring" value="9/15/2016"/>
+<entry key="4" type="xstring" value="9/24/2016"/>
+<entry key="5" type="xstring" value="9/16/2016"/>
+<entry key="6" type="xstring" value="10/9/2016"/>
+<entry key="7" type="xstring" value="10/10/2016"/>
+<entry key="8" type="xstring" value="9/25/2016"/>
+<entry key="9" type="xstring" value="9/17/2016"/>
+<entry key="10" type="xstring" value="11/9/2016"/>
+<entry key="11" type="xstring" value="10/25/2016"/>
+<entry key="12" type="xstring" value="9/18/2016"/>
+<entry key="13" type="xstring" value="9/26/2016"/>
+<entry key="14" type="xstring" value="10/26/2016"/>
+<entry key="15" type="xstring" value="10/11/2016"/>
+<entry key="16" type="xstring" value="11/10/2016"/>
+<entry key="17" type="xstring" value="9/19/2016"/>
+<entry key="18" type="xstring" value="10/12/2016"/>
+<entry key="19" type="xstring" value="9/27/2016"/>
+<entry key="20" type="xstring" value="9/28/2016"/>
+<entry key="21" type="xstring" value="10/13/2016"/>
+<entry key="22" type="xstring" value="11/12/2016"/>
+<entry key="23" type="xstring" value="9/23/2016"/>
+<entry key="24" type="xstring" value="11/7/2016"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="273"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="23"/>
+<entry key="0" type="xstring" value="10/13/2016"/>
+<entry key="1" type="xstring" value="10/9/2016"/>
+<entry key="2" type="xstring" value="10/10/2016"/>
+<entry key="3" type="xstring" value="11/9/2016"/>
+<entry key="4" type="xstring" value="11/10/2016"/>
+<entry key="5" type="xstring" value="9/19/2016"/>
+<entry key="6" type="xstring" value="9/27/2016"/>
+<entry key="7" type="xstring" value="9/26/2016"/>
+<entry key="8" type="xstring" value="10/12/2016"/>
+<entry key="9" type="xstring" value="9/24/2016"/>
+<entry key="10" type="xstring" value="9/16/2016"/>
+<entry key="11" type="xstring" value="10/25/2016"/>
+<entry key="12" type="xstring" value="11/12/2016"/>
+<entry key="13" type="xstring" value="9/25/2016"/>
+<entry key="14" type="xstring" value="10/7/2016"/>
+<entry key="15" type="xstring" value="10/11/2016"/>
+<entry key="16" type="xstring" value="9/22/2016"/>
+<entry key="17" type="xstring" value="9/18/2016"/>
+<entry key="18" type="xstring" value="10/8/2016"/>
+<entry key="19" type="xstring" value="9/15/2016"/>
+<entry key="20" type="xstring" value="9/17/2016"/>
+<entry key="21" type="xstring" value="10/26/2016"/>
+<entry key="22" type="xstring" value="9/28/2016"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="23"/>
+<entry key="0" type="xlong" value="20"/>
+<entry key="1" type="xlong" value="10"/>
+<entry key="2" type="xlong" value="54"/>
+<entry key="3" type="xlong" value="3"/>
+<entry key="4" type="xlong" value="5"/>
+<entry key="5" type="xlong" value="3"/>
+<entry key="6" type="xlong" value="11"/>
+<entry key="7" type="xlong" value="37"/>
+<entry key="8" type="xlong" value="8"/>
+<entry key="9" type="xlong" value="7"/>
+<entry key="10" type="xlong" value="3"/>
+<entry key="11" type="xlong" value="2"/>
+<entry key="12" type="xlong" value="2"/>
+<entry key="13" type="xlong" value="45"/>
+<entry key="14" type="xlong" value="3"/>
+<entry key="15" type="xlong" value="37"/>
+<entry key="16" type="xlong" value="1"/>
+<entry key="17" type="xlong" value="3"/>
+<entry key="18" type="xlong" value="4"/>
+<entry key="19" type="xlong" value="1"/>
+<entry key="20" type="xlong" value="6"/>
+<entry key="21" type="xlong" value="2"/>
+<entry key="22" type="xlong" value="6"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="COLLECTION"/>
+<entry key="noOfRows" type="xlong" value="91"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="10/9/2016"/>
+<entry key="1" type="xstring" value="10/10/2016"/>
+<entry key="2" type="xstring" value="11/9/2016"/>
+<entry key="3" type="xstring" value="11/10/2016"/>
+<entry key="4" type="xstring" value="9/25/2016"/>
+<entry key="5" type="xstring" value="10/11/2016"/>
+<entry key="6" type="xstring" value="9/26/2016"/>
+<entry key="7" type="xstring" value="10/8/2016"/>
+<entry key="8" type="xstring" value="9/23/2016"/>
+<entry key="9" type="xstring" value="9/24/2016"/>
+<entry key="10" type="xstring" value="10/25/2016"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xlong" value="11"/>
+<entry key="1" type="xlong" value="36"/>
+<entry key="2" type="xlong" value="3"/>
+<entry key="3" type="xlong" value="1"/>
+<entry key="4" type="xlong" value="23"/>
+<entry key="5" type="xlong" value="2"/>
+<entry key="6" type="xlong" value="1"/>
+<entry key="7" type="xlong" value="2"/>
+<entry key="8" type="xlong" value="3"/>
+<entry key="9" type="xlong" value="7"/>
+<entry key="10" type="xlong" value="2"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="COLLECTION_PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="86"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="13"/>
+<entry key="0" type="xstring" value="10/9/2016"/>
+<entry key="1" type="xstring" value="10/10/2016"/>
+<entry key="2" type="xstring" value="11/9/2016"/>
+<entry key="3" type="xstring" value="11/10/2016"/>
+<entry key="4" type="xstring" value="9/26/2016"/>
+<entry key="5" type="xstring" value="11/7/2016"/>
+<entry key="6" type="xstring" value="9/24/2016"/>
+<entry key="7" type="xstring" value="9/25/2016"/>
+<entry key="8" type="xstring" value="10/11/2016"/>
+<entry key="9" type="xstring" value="10/8/2016"/>
+<entry key="10" type="xstring" value="9/23/2016"/>
+<entry key="11" type="xstring" value="9/17/2016"/>
+<entry key="12" type="xstring" value="10/26/2016"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="13"/>
+<entry key="0" type="xlong" value="3"/>
+<entry key="1" type="xlong" value="24"/>
+<entry key="2" type="xlong" value="1"/>
+<entry key="3" type="xlong" value="2"/>
+<entry key="4" type="xlong" value="11"/>
+<entry key="5" type="xlong" value="1"/>
+<entry key="6" type="xlong" value="2"/>
+<entry key="7" type="xlong" value="13"/>
+<entry key="8" type="xlong" value="23"/>
+<entry key="9" type="xlong" value="1"/>
+<entry key="10" type="xlong" value="3"/>
+<entry key="11" type="xlong" value="1"/>
+<entry key="12" type="xlong" value="1"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_5">
+<entry key="attributeName" type="xstring" value="past_due_days"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="273"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="2"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="COLLECTION"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="91"/>
+<entry key="mean" type="xdouble" value="63.21978021978021"/>
+<entry key="sd" type="xdouble" value="10.822612333856261"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="COLLECTION_PAIDOFF"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="86"/>
+<entry key="mean" type="xdouble" value="9.186046511627904"/>
+<entry key="sd" type="xdouble" value="12.946506799275761"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_6">
+<entry key="attributeName" type="xstring" value="age"/>
+<entry key="type" type="xstring" value="NumericalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="PAIDOFF"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="273"/>
+<entry key="mean" type="xdouble" value="31.37728937728939"/>
+<entry key="sd" type="xdouble" value="6.163262598722035"/>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="COLLECTION"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="91"/>
+<entry key="mean" type="xdouble" value="30.725274725274723"/>
+<entry key="sd" type="xdouble" value="6.159123195293185"/>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="COLLECTION_PAIDOFF"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<entry key="noOfRows" type="xlong" value="86"/>
+<entry key="mean" type="xdouble" value="31.09302325581395"/>
+<entry key="sd" type="xdouble" value="6.215025260422365"/>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_7">
+<entry key="attributeName" type="xstring" value="education"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="High School or Below"/>
+<entry key="1" type="xstring" value="Bechalor"/>
+<entry key="2" type="xstring" value="college"/>
+<entry key="3" type="xstring" value="Master or Above"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="273"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="college"/>
+<entry key="1" type="xstring" value="Master or Above"/>
+<entry key="2" type="xstring" value="High School or Below"/>
+<entry key="3" type="xstring" value="Bechalor"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="121"/>
+<entry key="1" type="xlong" value="3"/>
+<entry key="2" type="xlong" value="112"/>
+<entry key="3" type="xlong" value="37"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="COLLECTION"/>
+<entry key="noOfRows" type="xlong" value="91"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="college"/>
+<entry key="1" type="xstring" value="Master or Above"/>
+<entry key="2" type="xstring" value="High School or Below"/>
+<entry key="3" type="xstring" value="Bechalor"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xlong" value="36"/>
+<entry key="1" type="xlong" value="1"/>
+<entry key="2" type="xlong" value="44"/>
+<entry key="3" type="xlong" value="10"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="COLLECTION_PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="86"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="college"/>
+<entry key="1" type="xstring" value="High School or Below"/>
+<entry key="2" type="xstring" value="Bechalor"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xlong" value="44"/>
+<entry key="1" type="xlong" value="32"/>
+<entry key="2" type="xlong" value="10"/>
+</config>
+</config>
+</config>
+</config>
+<config key="AttributeModelData_8">
+<entry key="attributeName" type="xstring" value="Gender"/>
+<entry key="type" type="xstring" value="NominalModel"/>
+<entry key="skipMissingVals" type="xboolean" value="true"/>
+<entry key="numberOfMissingValues" type="xint" value="0"/>
+<entry key="invalidCause" type="xstring" isnull="true" value=""/>
+<config key="data">
+<entry key="maxNoOfAttrs" type="xlong" value="200"/>
+<entry key="noOfClasses" type="xlong" value="3"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="male"/>
+<entry key="1" type="xstring" value="female"/>
+</config>
+<config key="classValueData_0">
+<entry key="classValue" type="xstring" value="PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="273"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="female"/>
+<entry key="1" type="xstring" value="male"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xlong" value="49"/>
+<entry key="1" type="xlong" value="224"/>
+</config>
+</config>
+<config key="classValueData_1">
+<entry key="classValue" type="xstring" value="COLLECTION"/>
+<entry key="noOfRows" type="xlong" value="91"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="female"/>
+<entry key="1" type="xstring" value="male"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xlong" value="10"/>
+<entry key="1" type="xlong" value="81"/>
+</config>
+</config>
+<config key="classValueData_2">
+<entry key="classValue" type="xstring" value="COLLECTION_PAIDOFF"/>
+<entry key="noOfRows" type="xlong" value="86"/>
+<entry key="MissingValCounter" type="xlong" value="0"/>
+<config key="attributeValues">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="female"/>
+<entry key="1" type="xstring" value="male"/>
+</config>
+<config key="attributeCounter">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xlong" value="13"/>
+<entry key="1" type="xlong" value="73"/>
+</config>
+</config>
+</config>
+</config>
+</config>
+</config>
