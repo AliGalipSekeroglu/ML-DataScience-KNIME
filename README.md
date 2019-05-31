@@ -5,7 +5,7 @@ This repository will be updated.
 
 1-IBM Pandas Example 1, Introduction (Coursera- IBM Data Analysis with Python)                                                        
 2-IBM Pandas Example 2 , Data Cleaning (Coursera- IBM Data Analysis with Python)                                                
-3-KNIME - Market Basket Data Analysis (2 different data sets + report of the experiment)                                                   
+3-Numpy Exercises (18 Easy Questions and Solutions,by https://github.com/rougier/)                                                        
 4-KNIME - Monthly Stock Market Prediction of Turkey (Linear Regression + Polynomial Regression)                                          
 5-KNIME - Annual Stock Market Prediction of Turkey  (Linear Regression + Polynomial Regression + Gradient Boosted)                    
 6-KNIME - Call Center Analysis (Linear Regression + Polynomial Regression)                                                               
@@ -19,3 +19,4 @@ This repository will be updated.
 14-KNIME - Metanodes and Loops (KNN + Naive Bayes + Decision Tree)                                                    
 15-KNIME - Customer Segmentation (K-Means)                                                                                                
 16-KNIME - Customer Payment Prediction (Random Forest + Naive Bayes)                            
+17-KNIME - Market Basket Data Analysis (2 different data sets + report of the experiment)
